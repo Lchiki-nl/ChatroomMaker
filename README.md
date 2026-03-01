@@ -1,17 +1,30 @@
-<<<<<<< HEAD
-# chatroom_maker
-LINE風のチャットルームを作るテンプレート
-=======
-# React + Vite
+# Chatroom Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+チャット風の会話画面を自由に作成、編集、閲覧できるウェブアプリケーションです。物語やシナリオの作成、コンテンツ制作のシミュレーションなどに活用できます。
 
-Currently, two official plugins are available:
+## 特徴
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- チャット風UIでの会話シミュレーション
+- メッセージの追加・編集・削除
+- ユーザーアイコンのカスタマイズ機能
 
-## Expanding the ESLint configuration
+## 開発環境 (Development Setup)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> f4c956d (update:初めてのプッシュ)
+このプロジェクトは React と Vite で構築されています。
+
+### 起動方法
+
+```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
+npm run dev
+```
+
+### スクリプト
+
+- `npm run dev`: 開発サーバーを起動します
+- `npm run build`: プロダクション用にビルドします
+- `npm run preview`: ビルド済みのファイルをプレビューします
+- `npm run lint`: コードの静的解析を実行します
